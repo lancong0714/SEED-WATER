@@ -23,7 +23,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--model_names", type=str, default="resnet18")
 parser.add_argument("--pre_trained", type=bool, default=False)
 parser.add_argument("--classes_num", type=int, default=30) #样品种类数
-parser.add_argument("--dataset", type=str, default=r"D:\HZAU\exp\EEM\CNN\dataset\seed water")  #文件路径
+parser.add_argument("--dataset", type=str, default=r"D:.\dataset\seed water")  #文件路径
 parser.add_argument("--batch_size", type=int, default=64)
 parser.add_argument("--epoch", type=int, default=20) # 训练轮次
 parser.add_argument("--lr", type=float, default=0.01) # 学习率，默认为0.01
@@ -51,7 +51,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu_id)  # 设置使用的GPU设�
 
 # 构建实验结果文件夹的路径
 exp_name = args.exp_postfix
-base_path = r"D:\HZAU\exp\EEM\CNN\report"
+base_path = r".\report"
 exp_path = os.path.join(base_path, args.dataset, args.model_names, exp_name)
 
 # 数据增强与转换
@@ -211,7 +211,7 @@ def train(model, optimizer, train_loader, test_loader, scheduler):
 
 
 if __name__ == "__main__":
-    base_path = r"D:\HZAU\exp\EEM\CNN\runs"
+    base_path = r".\runs"
     tb_path = os.path.join(base_path, args.dataset, args.model_names, args.exp_postfix)
     tb_writer = SummaryWriter(log_dir=tb_path)  # 创建TensorBoard写入器
 

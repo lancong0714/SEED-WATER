@@ -1,0 +1,22 @@
+epoch:1 model:resnet18 train loss:1.51 acc:23.33  test loss1.21 acc:33.33
+epoch:2 model:resnet18 train loss:1.15 acc:16.67  test loss1.22 acc:33.33
+epoch:3 model:resnet18 train loss:1.12 acc:16.67  test loss1.19 acc:33.33
+epoch:4 model:resnet18 train loss:1.11 acc:43.33  test loss1.16 acc:33.33
+epoch:5 model:resnet18 train loss:1.09 acc:43.33  test loss1.15 acc:33.33
+epoch:6 model:resnet18 train loss:1.10 acc:23.33  test loss1.13 acc:33.33
+epoch:7 model:resnet18 train loss:1.12 acc:23.33  test loss1.12 acc:33.33
+epoch:8 model:resnet18 train loss:1.09 acc:36.67  test loss1.11 acc:33.33
+epoch:9 model:resnet18 train loss:1.09 acc:36.67  test loss1.11 acc:13.33
+epoch:10 model:resnet18 train loss:1.09 acc:30.00  test loss1.11 acc:33.33
+epoch:11 model:resnet18 train loss:1.10 acc:30.00  test loss1.10 acc:33.33
+epoch:12 model:resnet18 train loss:1.12 acc:23.33  test loss1.10 acc:33.33
+epoch:13 model:resnet18 train loss:1.07 acc:50.00  test loss1.10 acc:33.33
+epoch:14 model:resnet18 train loss:1.13 acc:33.33  test loss1.10 acc:33.33
+epoch:15 model:resnet18 train loss:1.09 acc:36.67  test loss1.10 acc:33.33
+epoch:16 model:resnet18 train loss:1.10 acc:36.67  test loss1.10 acc:33.33
+epoch:17 model:resnet18 train loss:1.09 acc:46.67  test loss1.10 acc:33.33
+epoch:18 model:resnet18 train loss:1.07 acc:46.67  test loss1.10 acc:33.33
+epoch:19 model:resnet18 train loss:1.10 acc:43.33  test loss1.09 acc:33.33
+epoch:20 model:resnet18 train loss:1.09 acc:50.00  test loss1.09 acc:33.33
+model:resnet18 best acc:33.33
+training time: 480.29894495010376
